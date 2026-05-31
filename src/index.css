@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Fredoka One', 'Arial Rounded MT Bold', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FDFBF7;
+}
+
+.maze-wall {
+  background-color: #5D5FEF;
+  border-radius: 8px;
+}
+
+.maze-path {
+  background-color: #E0E7FF;
+  border-radius: 8px;
+}
+
+.character-shadow {
+  filter: drop-shadow(0 4px 0px rgba(0,0,0,0.1));
+}
+
+.bubbly-font {
+  font-family: 'Fredoka One', 'Arial Rounded MT Bold', sans-serif;
+}
+
+.sticker-slot {
+  background: rgba(255, 255, 255, 0.5);
+  border: 4px dashed #FFCA28;
+}

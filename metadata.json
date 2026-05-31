@@ -1,0 +1,6 @@
+{
+  "name": "Magic Maze Adventures",
+  "description": "A colorful, engaging, and simple maze game for young children featuring cute characters, sound effects, and a rewarding sticker system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
